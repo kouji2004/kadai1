@@ -1,0 +1,134 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/* heder */
+header{
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+
+/* main */
+main{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main-item{
+  width: 300px;
+  padding: 10px;
+  margin: 50px 0 50px 30px;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.main-position{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: #ff9a4b;
+}
+
+.main-title{
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+
+.img1{
+  background-image: url(flow01.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+}
+
+.img2{
+  background-image: url(flow02.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+}
+.img3{
+  background-image: url(flow03.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 150px;
+}
+
+/* footer */
+footer{
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px){
+  header{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+  }
+  main{
+    width: 100%;
+    display: block;
+  }
+
+  .main-item{
+    width: 90%;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: #eeeeee;
+    position: relative;
+  }
+
+.main-item:nth-child(2){
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #eeeeee;
+  position: relative;
+}
+
+  .img1{
+    background-image: url(flow01.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+  }
+  
+  .img2{
+    background-image: url(flow02.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+  }
+  .img3{
+    background-image: url(flow03.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 160px;
+  }
+
+ 
+
+  footer{
+    height: 50px;
+    margin-top: 50px;
+    width: 100%;
+  }
+}
